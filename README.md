@@ -104,8 +104,8 @@ Vercel에 올릴 때는 Framework를 Vite로 두면 됩니다.
 
 - [x] 그림 47장 (`PROMPTS.md`) — 완료
 - [x] 앱 아이콘 `public/icons/` 교체 완료
-- [ ] `verified: false` 문항 2개 확인
-- [ ] `facts.json`의 `[확인 필요]` 3건 (국립생태원 공식 개원일, 신성리 갈대밭 촬영 작품, 쭈꾸미 축제 명칭)
+- [x] `verified: false` 문항 확인 완료 — 전 문항 `verified: true`
+- [x] `facts.json`의 `[확인 필요]` 정리 완료
 - [ ] 사진 퀴즈용 사진과 출처 (선택)
 
 ### 화면 색을 서천답게 바꾸고 싶다면
