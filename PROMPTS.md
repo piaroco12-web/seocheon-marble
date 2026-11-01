@@ -3,7 +3,7 @@
 > 각 프롬프트는 공통 스타일 문장까지 들어 있는 완성본입니다. 코드 블록 오른쪽 위 복사 버튼으로 복사해 ChatGPT에 그대로 붙여 넣으세요.
 > 저장 위치: `public/regions/seocheon/art/` · 파일 이름을 그대로 쓰면 게임에 바로 들어갑니다.
 
-그림 **47장** + 앱 아이콘 1장 (⬜ 필요 · ✅ 완료)
+그림 **47장 완료** · 앱 아이콘 1장 ⬜ 필요 (⬜ 필요 · ✅ 완료)
 
 ## 목차
 
@@ -20,54 +20,54 @@
 
 | 상태 | 파일 | 그림 |
 |---|---|---|
-| ⬜ | `style-anchor.png` | 기준 이미지: 한산모시관 |
-| ⬜ | `map-base.png` | 지도 바탕 (건물 없이) |
-| ⬜ | `bld-ramie.png` | 한산모시관 (= 기준 이미지) |
-| ⬜ | `bld-moonheon.png` | 문헌서원 |
-| ⬜ | `bld-leesangjae.png` | 이상재 선생 생가지 |
-| ⬜ | `bld-reed.png` | 신성리 갈대밭 |
-| ⬜ | `bld-birds.png` | 금강하구 조류생태전시관 |
-| ⬜ | `bld-tidal.png` | 서천갯벌 유부도 |
-| ⬜ | `bld-ecology.png` | 국립생태원 에코리움 |
-| ⬜ | `bld-skywalk.png` | 장항스카이워크 |
-| ⬜ | `bld-port.png` | 홍원항 |
-| ⬜ | `bld-camellia.png` | 마량리 동백나무숲 |
-| ⬜ | `bld-start.png` | 출발: 한산모시문화제 마당 |
-| ⬜ | `bld-rest.png` | 쉼터: 춘장대 솔밭 쉼터 |
-| ⬜ | `bld-chance.png` | 찬스: 모시 실꾸리 바구니 |
-| ⬜ | `char-seoa-normal.png` | 서아 기본 |
-| ⬜ | `char-seoa-think.png` | 서아 생각 |
-| ⬜ | `char-seoa-happy.png` | 서아 정답 |
-| ⬜ | `char-seoa-sad.png` | 서아 오답 |
-| ⬜ | `char-seoa-surprised.png` | 서아 시간 초과 |
-| ⬜ | `char-cheoni-normal.png` | 천이 기본 |
-| ⬜ | `char-cheoni-think.png` | 천이 생각 |
-| ⬜ | `char-cheoni-happy.png` | 천이 정답 |
-| ⬜ | `char-cheoni-sad.png` | 천이 오답 |
-| ⬜ | `char-cheoni-surprised.png` | 천이 시간 초과 |
-| ⬜ | `piece-ramie.png` | 말: 모시 요정 |
-| ⬜ | `piece-camellia.png` | 말: 동백이 |
-| ⬜ | `piece-bird.png` | 말: 검은머리물떼새 |
-| ⬜ | `piece-octopus.png` | 말: 주꾸미 |
-| ⬜ | `mg-ramie-loom.png` | 모시 올 뽑기: 베틀 배경 |
-| ⬜ | `mg-ramie-thread.png` | 모시 올 뽑기: 모시 실꾸리 |
-| ⬜ | `mg-card-back.png` | 짝 맞추기: 카드 뒷면 |
-| ⬜ | `mg-card-1.png` | 짝 맞추기: 모시풀 |
-| ⬜ | `mg-card-2.png` | 짝 맞추기: 동백꽃 |
-| ⬜ | `mg-card-3.png` | 짝 맞추기: 검은머리물떼새 |
-| ⬜ | `mg-card-4.png` | 짝 맞추기: 주꾸미 |
-| ⬜ | `mg-nest.png` | 철새 길 안내: 갈대밭 둥지 (출발점) |
-| ⬜ | `mg-mudflat.png` | 철새 길 안내: 갯벌 먹이터 (도착점) |
-| ⬜ | `mg-pylon.png` | 철새 길 안내: 전봇대 장애물 |
-| ⬜ | `ui-title-bg.png` | 첫 화면 배경 |
-| ⬜ | `ui-bus.png` | 서천 버스 아이콘 |
-| ⬜ | `ui-heart.png` | 하트 (가득) |
-| ⬜ | `ui-heart-empty.png` | 하트 (빈칸) |
-| ⬜ | `ui-score.png` | 점수 아이콘 |
-| ⬜ | `ui-hint.png` | 힌트 아이콘 |
-| ⬜ | `ui-stamp.png` | 도장 자국 |
-| ⬜ | `ui-trophy.png` | 완주 트로피 |
-| ⬜ | `ui-paper.png` | 카드 바탕 종이 (반복 무늬) |
+| ✅ | `style-anchor.png` | 기준 이미지: 한산모시관 |
+| ✅ | `map-base.png` | 지도 바탕 (건물 없이) |
+| ✅ | `bld-ramie.png` | 한산모시관 (= 기준 이미지) |
+| ✅ | `bld-moonheon.png` | 문헌서원 |
+| ✅ | `bld-leesangjae.png` | 이상재 선생 생가지 |
+| ✅ | `bld-reed.png` | 신성리 갈대밭 |
+| ✅ | `bld-birds.png` | 금강하구 조류생태전시관 |
+| ✅ | `bld-tidal.png` | 서천갯벌 유부도 |
+| ✅ | `bld-ecology.png` | 국립생태원 에코리움 |
+| ✅ | `bld-skywalk.png` | 장항스카이워크 |
+| ✅ | `bld-port.png` | 홍원항 |
+| ✅ | `bld-camellia.png` | 마량리 동백나무숲 |
+| ✅ | `bld-start.png` | 출발: 한산모시문화제 마당 |
+| ✅ | `bld-rest.png` | 쉼터: 춘장대 솔밭 쉼터 |
+| ✅ | `bld-chance.png` | 찬스: 모시 실꾸리 바구니 |
+| ✅ | `char-seoa-normal.png` | 서아 기본 |
+| ✅ | `char-seoa-think.png` | 서아 생각 |
+| ✅ | `char-seoa-happy.png` | 서아 정답 |
+| ✅ | `char-seoa-sad.png` | 서아 오답 |
+| ✅ | `char-seoa-surprised.png` | 서아 시간 초과 |
+| ✅ | `char-cheoni-normal.png` | 천이 기본 |
+| ✅ | `char-cheoni-think.png` | 천이 생각 |
+| ✅ | `char-cheoni-happy.png` | 천이 정답 |
+| ✅ | `char-cheoni-sad.png` | 천이 오답 |
+| ✅ | `char-cheoni-surprised.png` | 천이 시간 초과 |
+| ✅ | `piece-ramie.png` | 말: 모시 요정 |
+| ✅ | `piece-camellia.png` | 말: 동백이 |
+| ✅ | `piece-bird.png` | 말: 검은머리물떼새 |
+| ✅ | `piece-octopus.png` | 말: 주꾸미 |
+| ✅ | `mg-ramie-loom.png` | 모시 올 뽑기: 베틀 배경 |
+| ✅ | `mg-ramie-thread.png` | 모시 올 뽑기: 모시 실꾸리 |
+| ✅ | `mg-card-back.png` | 짝 맞추기: 카드 뒷면 |
+| ✅ | `mg-card-1.png` | 짝 맞추기: 모시풀 |
+| ✅ | `mg-card-2.png` | 짝 맞추기: 동백꽃 |
+| ✅ | `mg-card-3.png` | 짝 맞추기: 검은머리물떼새 |
+| ✅ | `mg-card-4.png` | 짝 맞추기: 주꾸미 |
+| ✅ | `mg-nest.png` | 철새 길 안내: 갈대밭 둥지 (출발점) |
+| ✅ | `mg-mudflat.png` | 철새 길 안내: 갯벌 먹이터 (도착점) |
+| ✅ | `mg-pylon.png` | 철새 길 안내: 전봇대 장애물 |
+| ✅ | `ui-title-bg.png` | 첫 화면 배경 |
+| ✅ | `ui-bus.png` | 서천 버스 아이콘 |
+| ✅ | `ui-heart.png` | 하트 (가득) |
+| ✅ | `ui-heart-empty.png` | 하트 (빈칸) |
+| ✅ | `ui-score.png` | 점수 아이콘 |
+| ✅ | `ui-hint.png` | 힌트 아이콘 |
+| ✅ | `ui-stamp.png` | 도장 자국 |
+| ✅ | `ui-trophy.png` | 완주 트로피 |
+| ✅ | `ui-paper.png` | 카드 바탕 종이 (반복 무늬) |
 
 ## 공통 스타일 문장
 
