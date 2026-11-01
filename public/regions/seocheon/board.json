@@ -1,0 +1,174 @@
+{
+  "title": "다 같이 돌자, 서천 한 바퀴",
+  "regionName": "서천",
+  "width": 1536,
+  "height": 1024,
+  "start": 0,
+  "startName": "한산모시문화제 마당",
+  "restName": "춘장대 솔밭 쉼터",
+  "chanceName": "모시 실꾸리 바구니",
+  "busName": "서천 버스",
+  "places": {
+    "ramie": {
+      "name": "한산모시관",
+      "short": "모시관",
+      "emoji": "🧵",
+      "art": "art/bld-ramie.png",
+      "categories": ["specialty", "society"],
+      "mode": "quiz_or_minigame",
+      "minigames": ["ramie"]
+    },
+    "moonheon": {
+      "name": "문헌서원",
+      "short": "문헌서원",
+      "emoji": "📜",
+      "art": "art/bld-moonheon.png",
+      "categories": ["history", "people"],
+      "mode": "quiz"
+    },
+    "leesangjae": {
+      "name": "이상재 선생 생가지",
+      "short": "이상재 생가",
+      "emoji": "🏠",
+      "art": "art/bld-leesangjae.png",
+      "categories": ["people", "history"],
+      "mode": "quiz"
+    },
+    "reed": {
+      "name": "신성리 갈대밭",
+      "short": "갈대밭",
+      "emoji": "🌾",
+      "art": "art/bld-reed.png",
+      "categories": ["nature", "environment"],
+      "mode": "quiz"
+    },
+    "birds": {
+      "name": "금강하구 조류생태전시관",
+      "short": "조류전시관",
+      "emoji": "🦆",
+      "art": "art/bld-birds.png",
+      "categories": ["nature", "environment"],
+      "mode": "quiz_or_minigame",
+      "minigames": ["bird"]
+    },
+    "tidal": {
+      "name": "서천갯벌 유부도",
+      "short": "유부도 갯벌",
+      "emoji": "🦀",
+      "art": "art/bld-tidal.png",
+      "categories": ["environment", "nature"],
+      "mode": "quiz"
+    },
+    "ecology": {
+      "name": "국립생태원 에코리움",
+      "short": "국립생태원",
+      "emoji": "🌴",
+      "art": "art/bld-ecology.png",
+      "categories": ["society", "environment"],
+      "mode": "quiz_or_minigame",
+      "minigames": ["memory"]
+    },
+    "skywalk": {
+      "name": "장항스카이워크",
+      "short": "스카이워크",
+      "emoji": "🌲",
+      "art": "art/bld-skywalk.png",
+      "categories": ["nature", "safety"],
+      "mode": "quiz"
+    },
+    "port": {
+      "name": "홍원항",
+      "short": "홍원항",
+      "emoji": "🐟",
+      "art": "art/bld-port.png",
+      "categories": ["specialty", "environment"],
+      "mode": "quiz"
+    },
+    "camellia": {
+      "name": "마량리 동백나무숲",
+      "short": "동백숲",
+      "emoji": "🌺",
+      "art": "art/bld-camellia.png",
+      "categories": ["nature", "history"],
+      "mode": "quiz"
+    }
+  },
+  "tiles": [
+    { "id": 0, "type": "start", "x": 770, "y": 470, "next": [1] },
+    { "id": 1, "type": "place", "x": 600, "y": 545, "next": [2], "place": "ramie" },
+    { "id": 2, "type": "chance", "x": 470, "y": 480, "next": [3] },
+    { "id": 3, "type": "place", "x": 345, "y": 405, "next": [4], "place": "moonheon" },
+    { "id": 4, "type": "place", "x": 215, "y": 520, "next": [5], "place": "leesangjae", "label": "left" },
+    { "id": 5, "type": "place", "x": 300, "y": 690, "next": [6], "place": "reed" },
+    { "id": 6, "type": "chance", "x": 470, "y": 745, "next": [7] },
+    { "id": 7, "type": "place", "x": 640, "y": 700, "next": [8], "place": "birds" },
+    { "id": 8, "type": "place", "x": 820, "y": 690, "next": [9], "place": "tidal" },
+    { "id": 9, "type": "rest", "x": 990, "y": 780, "next": [10] },
+    { "id": 10, "type": "place", "x": 1150, "y": 640, "next": [11], "place": "ecology" },
+    { "id": 11, "type": "chance", "x": 1110, "y": 500, "next": [12] },
+    { "id": 12, "type": "place", "x": 1090, "y": 360, "next": [13], "place": "skywalk" },
+    { "id": 13, "type": "place", "x": 880, "y": 285, "next": [14], "place": "port" },
+    { "id": 14, "type": "place", "x": 650, "y": 270, "next": [15], "place": "camellia" },
+    { "id": 15, "type": "rest", "x": 470, "y": 315, "next": [0] }
+  ],
+  "forks": {},
+  "startArt": "art/bld-start.png",
+  "restArt": "art/bld-rest.png",
+  "chanceArt": "art/bld-chance.png",
+  "mapArt": "art/map-base.png",
+  "pieces": [
+    { "id": "ramie", "name": "모시 요정", "emoji": "🧵", "art": "art/piece-ramie.png" },
+    { "id": "camellia", "name": "동백이", "emoji": "🌺", "art": "art/piece-camellia.png" },
+    { "id": "bird", "name": "검은머리물떼새", "emoji": "🐦", "art": "art/piece-bird.png" },
+    { "id": "octopus", "name": "주꾸미", "emoji": "🐙", "art": "art/piece-octopus.png" }
+  ],
+  "guides": [
+    {
+      "name": "서아",
+      "emoji": "👧",
+      "art": {
+        "normal": "art/char-seoa-normal.png",
+        "think": "art/char-seoa-think.png",
+        "happy": "art/char-seoa-happy.png",
+        "sad": "art/char-seoa-sad.png",
+        "surprised": "art/char-seoa-surprised.png"
+      }
+    },
+    {
+      "name": "천이",
+      "emoji": "🧒",
+      "art": {
+        "normal": "art/char-cheoni-normal.png",
+        "think": "art/char-cheoni-think.png",
+        "happy": "art/char-cheoni-happy.png",
+        "sad": "art/char-cheoni-sad.png",
+        "surprised": "art/char-cheoni-surprised.png"
+      }
+    }
+  ],
+  "ui": {
+    "titleBg": "art/ui-title-bg.png",
+    "bus": "art/ui-bus.png",
+    "heart": "art/ui-heart.png",
+    "heartEmpty": "art/ui-heart-empty.png",
+    "score": "art/ui-score.png",
+    "hint": "art/ui-hint.png",
+    "stamp": "art/ui-stamp.png",
+    "trophy": "art/ui-trophy.png",
+    "paper": "art/ui-paper.png"
+  },
+  "minigameArt": {
+    "field": "art/mg-ramie-loom.png",
+    "root": "art/mg-ramie-thread.png",
+    "cardBack": "art/mg-card-back.png",
+    "cards": [
+      "art/mg-card-1.png",
+      "art/mg-card-2.png",
+      "art/mg-card-3.png",
+      "art/mg-card-4.png"
+    ],
+    "antenna": "art/mg-nest.png",
+    "satellite": "art/mg-mudflat.png",
+    "block": "art/mg-pylon.png"
+  }
+}

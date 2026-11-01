@@ -1,0 +1,16 @@
+{
+  "name": "다 같이 돌자, 서천 한 바퀴",
+  "short_name": "서천 한 바퀴",
+  "description": "주사위를 굴려 서천을 탐험하는 체험 보드게임",
+  "lang": "ko",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#1e2a1e",
+  "theme_color": "#35704a",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
