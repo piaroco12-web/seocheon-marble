@@ -506,3 +506,11 @@ body {
   .hud-player, .hud-status { min-height: 0; }
   .hud-stamps { padding: 4px 10px; }
 }
+
+/* ---------- 휴대폰 스크롤 ---------- */
+/* 화면보다 긴 준비 카드·창은 위아래로 밀어서 볼 수 있게 한다 (짧을 때는 그대로 가운데) */
+.screen.center, .title-screen, .modal-wrap { overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+.screen.center > *, .modal-wrap > * { margin-block: auto; }
+.title-screen { justify-content: safe center; }
+.modal-wrap { position: fixed; }
+.modal { max-height: none; overflow: visible; }
